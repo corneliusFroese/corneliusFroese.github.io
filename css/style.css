@@ -1,0 +1,136 @@
+	/*
+	Author: Cornelius Froese
+	Date Last Modified: 17 April 2015
+	Linked to: index.html
+	*/
+	
+	
+	/* Global Reset */
+	* {margin: 0; padding: 0;}
+	
+	/* Global Paragraph settings */
+	p {
+		line-height: 25px;
+		text-indent: 25px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		text-align: justify;
+	}
+	
+	
+	/*------------------------------------Header Information------------------------------------*/
+	#container {
+		width: 800px;
+		display: block;
+		margin: 0 auto;
+	}
+	#header {
+		display: block;
+		margin: 0 auto;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+	header {
+		width: 800px;
+		display: block;
+		margin: 0 auto;
+	}
+	header h1{
+		font-size: 80px;
+		font-family: 'Wire One', sans-serif;
+		font-weight: normal;
+		text-align: center;
+		padding-top: 50px;
+		padding-bottom: 20px;
+		margin-left: -15px;
+	}
+	
+	/* Logo Link to Home */
+	header h1 a:link { text-decoration: none; color: black; }
+	header h1 a:visited { color: black; }	
+	header h1 a:hover { color: black; cursor: pointer; }
+	header h1 a:active { color: black; }
+	
+	#logo {
+		width: 110px;
+		height: 100px;
+		margin: 0 auto;
+		margin-left: 25px;
+		margin-right: 25px;
+		vertical-align: text-bottom;
+	}
+
+	
+	/* Contact Images */
+	#contactImages { padding-bottom: 50px; padding-top: 25px; text-align: center; }
+	.contactImage { height: 50px; padding-left: 10px; padding-right: 10px; -webkit-filter: grayscale(1); -moz-filter: grayscale(1); -ms-filter: grayscale(1); -o-filter: grayscale(0); filter: grayscale(1); }
+	.contactImage:hover { -webkit-filter: grayscale(0); -moz-filter: grayscale(0); -ms-filter: grayscale(0); -o-filter: grayscale(0); filter: grayscale(0); }
+	
+	/* Arrow Below Header */
+	#arrow { font-size: 75px; font-weight: bold; display: block; width: 50px; margin: 25px auto 0 auto; }
+	#arrow:hover { cursor: pointer; }
+	.rotated { transform-origin: 22px 30px; transform: rotate(180deg); }
+	
+	/*------------------------------------End Header Information------------------------------------*/
+	
+	
+	
+	/*-----------------------------------Content Information------------------------------------*/
+	
+	/* General Blocks */
+	#contact, #projects, #skills { display: block; float: left; width: 100%; }
+	
+	
+	/* General Previous Project blocks */
+	.projectBlock { display: block; height: 450px; margin-bottom: 50px; }
+	.projectBlock:last-of-type { margin-bottom: 0; }
+	.projectBlock img { border-radius: 10px; display: inline; width: 350px; margin: 5px 0 5px 0; -webkit-box-shadow: 10px 10px 15px #888888; -moz-box-shadow: 10px 10px 15px #888888; -ms-box-shadow: 10px 10px 15px #888888; -o-box-shadow: 10px 10px 15px #888888; box-shadow: 10px 10px 15px #888888; }
+	.projectBlock img:hover { opacity: 0.7; }
+	#autocentral img { float: right; margin-left: 50px; }
+	#hackforge img { float: left; margin-right: 50px; }
+	
+	
+	.smallHeader {
+		font-family: 'Cutive Mono', monospace;
+		line-height: 12px;
+		font-size: 15px;
+		text-align: left;
+		margin-top: 50px;
+	}
+	#previousWork, #about { margin-bottom: 50px; }
+	
+	
+	
+	/* Skillset Meters */
+	.skillMeter { width: 550px; height: 50px; margin: 10px 0 10px 50px; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; }
+	.skillMeter::-webkit-meter-bar { background: #FFF; border: 1px solid #CCC; }
+	.skillMeter::-webkit-meter-optimum-value { background: #87C7DE; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a1d4e6), color-stop(100%, #6bb4d1)); background: -webkit-linear-gradient(top, #a1d4e6 0%, #6bb4d1 100%); background: -moz-linear-gradient(top, #a1d4e6 0%, #6bb4d1 100%); background: -ms-linear-gradient(top, #a1d4e6 0%, #6bb4d1 100%); background: -o-linear-gradient(top, #a1d4e6 0%, #6bb4d1 100%); background: linear-gradient(to bottom, #a1d4e6 0%, #6bb4d1 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1d4e6', endColorstr='#6bb4d1',GradientType=0); }
+	#skills { margin-bottom: 50px; margin-top: -50px; }
+	#skillsTable { width: 100%; padding-top: 50px; padding-left: 25px; }
+	#titleRow { height: 50px; }
+	#titleRow td { text-align: left; }
+	.emptyCell { width: 50px; }
+	
+	
+	/* Bio Images and text */
+	#bioImage { width: 45%; display: inline; float: left; }
+	#me { width: 350px; display: inline; -webkit-border-bottom-right-radius: 15px; -moz-border-bottom-right-radius: 15px; -ms-border-bottom-right-radius: 15px; -o-border-bottom-right-radius: 15px; border-bottom-right-radius: 15px; -webkit-border-top-left-radius: 15px; -moz-border-top-left-radius: 15px; -ms-border-top-left-radius: 15px; -o-border-top-left-radius: 15px; border-top-left-radius: 15px; -webkit-box-shadow: 10px 10px 15px #888888; -moz-box-shadow: 10px 10px 15px #888888; -ms-box-shadow: 10px 10px 15px #888888; -o-box-shadow: 10px 10px 15px #888888; box-shadow: 10px 10px 15px #888888; }
+	#bioInfo { margin-left: 50px; width: 350px; display: inline; float: left; }
+	
+	
+	/* Contact Form */
+	#contact { font-family: 'Cutive Mono', monospace; padding-top: 50px; }
+	#contact h1 { text-align: center; padding-top: 25px; }
+	form input, form textarea { display: block; margin: -1px auto; width: 500px; padding: 20px; border: 0; }
+	form textarea { height: 50px; resize: vertical; width: 502px; }
+	form input:focus, form textarea:focus { border: 0; outline: 0; }
+	.line { width: 500px; margin: 0 auto; }
+	.line:last-of-type { margin-bottom: 50px; }
+	.line:first-of-type { margin-top: 50px; }
+	#submit { background-color: white; border: 1px solid black; border-radius: 2px; margin-bottom: 50px; }
+	 
+	 
+	/* Back to top text */
+	#btt { width: 150px; margin: 0 auto; }
+	#btt a { text-decoration: none; }
+	/*------------------------------------End Content Information------------------------------------*/

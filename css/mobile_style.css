@@ -1,0 +1,58 @@
+
+	#container {
+		width: 90%;
+		margin: 0 auto;
+	}
+	header h1 {
+		font-size: 150px;
+	}
+	#logo {
+		width: 200px;
+		height: 200px;
+	}
+	p {
+		line-height: 110%;
+	}
+	.smallHeader {
+		font-size: 300%;
+		padding-bottom: 2%;
+	}
+	.contactImage {
+		width: 100px;
+		height: 100px;
+	}
+	#me, #bioImage, #bioInfo, #header, .skillMeter, #hackforgeImg, #autocentralImg {
+		width: 100%;
+		display: block;
+		margin: 10px auto;
+		font-size: 200%;
+	}
+	.info {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		font-size: 150%;
+		display: block;
+		float: left;
+		margin-bottom: 8%;
+	}
+	.skillMeter {
+		border: 1px solid black;
+	}
+	#titleRow td{
+		padding-right: 10px;
+	}
+	.emptyCell {
+		width: 0;
+	}
+	hr {
+		background-color: black;
+	}
+	form {
+		font-size: 150%;
+	}
+	#btt {
+		font-size: 200%;
+		width: 100%;
+		text-align: center;
+	}
