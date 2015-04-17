@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- 
+Author: Cornelius Froese
+Program: Portfolio Website
+Date-Last-Modified: 14 April 2015
+-->
+<html class="loading">
+	<head>
+		<title>Cornelius Froese</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<link href="css/mobile_style.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)"/>
+		<link href='http://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+	</head>
+	<body>
+		<div id="container">
+			<header id="header">
+				<h1><a href=""><span>Cornelius</span><span> <img id ="logo" src="images/logo.png"/> </span><span>Froese</span></a></h1>
+				<section id="contactImages">
+					<a href="https://twitter.com/CorneliusFroese"><img src="images/twitter.png" alt="" class="contactImage"/></a>
+					<a href=""><img src="images/gmail.png" alt="" class="contactImage"/></a>
+					<a href="https://ca.linkedin.com/in/corneliusfroese"><img src="images/linkedin.png" alt="" class="contactImage"/></a>
+					<a href="https://github.com/corneliusFroese"><img src="images/github.png" alt="" class="contactImage"/></a>
+				</section>
+				<hr/>
+			</header>
+			<hr/>
+			<div id="arrow">^</div>	
+			
+			<section id="skills">
+				<h1 class="smallHeader">My Skillset</h1>
+				<hr/>
+				<table id="skillsTable">
+					<tr id="titleRow">
+						<td>Confidence</td>
+						<td class="emptyCell"></td>
+						<td>0</td>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+						<td>7</td>
+						<td>8</td>
+						<td>9</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>Photoshop</td>
+						<td colspan="12"><meter value="7.5" min="0" max="10" class="skillMeter">6 out of 10</meter></td>
+					</tr>
+					<tr>
+						<td>Javascript</td>
+						<td colspan="12"><meter value="6.5" min="0" max="10" class="skillMeter">6 out of 10</meter></td>
+					</tr>
+					<tr>
+						<td>HTML 5</td>
+						<td colspan="12"><meter value="6.5" min="0" max="10" class="skillMeter">6 out of 10</meter></td>
+					</tr>
+					<tr>
+						<td>CSS 3</td>
+						<td colspan="12"><meter value="6.5" min="0" max="10" class="skillMeter">6 out of 10</meter></td>
+					</tr>
+					<tr>
+						<td>jQuery</td>
+						<td colspan="12"><meter value="3.5" min="0" max="10" class="skillMeter">6 out of 10</meter></td>
+					</tr>
+				</table>
+			</section>
+			
+			<div id="bioWrap">
+				<h1 class="smallHeader">About Me</h1>
+				<hr id="about"/>
+				<section id="bioImage">
+					<img src="images/me.jpg" id="me"/>
+				</section>
+				<section id="bioInfo">
+					<h2>I love what I do.</h2>
+					<p>I love to program and write code, as well as seeing all of that code come together to form a website. Seeing the final product brings me great joy, and smiles.</p>
+					<p>Another hobby I love is to play sports, and just generally be active. Being active and keeping a healthy body and healthy mind is important to me.</p>
+				</section>
+			</div>
+			
+			<section id="projects">
+				<h1 class="smallHeader" id="pp">Previous Projects</h1>
+				<hr id="previousWork"/>
+				<section id="hackforge" class="projectBlock">
+					<a href="http://scweb.ca/~w0663492/hackforge.min/"><img src="images/hackforge.png" id="hackforgeImg" alt="Press Play"/></a> 
+					<div class="info">
+						<h1>Press Play Hackforge</h1>
+						<p>This site was made in one week. I participated in an event called Press Play, ran by HackForge. Using open data from the City of Windsor, Clara Benedek and I, set out to show the flaws with the Windsor Transit System.</p>
+						<p>Before the mid week meeting, I had already come up with a design for the website as well as started to code some basic layout. At the meeting mid week, we felt pretty confident about what was coming together for the website and went over some content that was to shown and what exactly we were trying to show.</p>
+						<p>When the end of the week presentation came by, we we're satisfied with what we had completed in the time frame and came away from this name Best Overall Team.</p>
+					</div>
+				</section>
+				<section id="autocentral" class="projectBlock">
+					<a href="http://scweb.ca/~w0663492/autocentral/index.html"><img src="images/autocentral.png" id="autocentralImg" alt="Auto Central"/></a>
+					<div class="info">
+						<h1>Auto Central</h1>
+						<p>During second semester in the Web Development program at St. Clair College, we had been assigned a partner and were put into the position of being both a developer and a client.</p>
+						<p>Being a developer on this project was difficult. The client was not very clear on what they wanted to their website. Eventually, contact with the client was completely cut off and furthering the project from this point was an indecisive task.</p>
+						<p>As a client, I was able to develop a clear idea of what I wanted in a website. How I wanted it to work, the content that needed to be displayed, and there was little problems. When the developer I had been assigned stopped contact, the project was halted, and could not continue. The site I had planned and wanted to be developed was not going to happen.</p>
+					</div>
+				</section>
+			</section>
+			
+			<section id="contact">
+				<hr/>
+				<h1 id="contactHeader">Let's work together.</h1>
+				<form action="#">
+					<hr class="line"/>
+					<input type="text" id="name" name="name" placeholder="NAME"/>
+					<hr class="line"/>
+					<input type="email"	id="email" name="email" placeholder="EMAIL"/>
+					<hr class="line"/>
+					<input type="text" id="subject" name="subject" placeholder="SUBJECT"/>
+					<hr class="line"/>
+					<textarea placeholder="PROJECT DESCRIPTION"></textarea>
+					<hr class="line"/>
+					<input type="submit" name="submit" id="submit" value="SUBMIT"/>
+				</form>
+				<p id="btt"><a href="#">Back To Top</a></p>
+			</section>
+		</div>
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/modernizr-1.5.js"></script>
+	</body>
+</html>
